@@ -58,6 +58,7 @@ img {
         width: 100%;
         max-width: 800px;
         padding: 22px 30px 17px 34px;
+        margin-inline: auto;
     }
 }
 

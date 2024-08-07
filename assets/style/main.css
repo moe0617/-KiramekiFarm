@@ -384,8 +384,9 @@ h1 {
 
 @media (min-width: 768px) {
     .cover__container {
-        margin-top: 6.25rem;
+        margin: 6.25rem auto 0;
         padding: 3.8125rem 8% 0.3125rem;
+        max-width: 87.5rem;
     }
 }
 
@@ -485,6 +486,7 @@ h1 {
         flex-direction: row-reverse;
         justify-content: space-between;
         margin: 0.625rem 16.5% 0.625rem 15.5%;
+        max-width: 956px;
     }
 }
 
@@ -493,6 +495,12 @@ h1 {
         gap: 8%;
         margin-left: 10%;
         margin-right: 8%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .about__container {
+        margin-inline: auto;
     }
 }
 
@@ -683,6 +691,8 @@ h1 {
         justify-content: center;
         column-gap: 3.125rem;
         row-gap: 2.5rem;
+        margin-inline: auto;
+        max-width: 1400px;
     }
 }
 
