@@ -36,6 +36,10 @@ img {
     color: #fff;
 }
 
+.-green {
+    color: #09947b;
+}
+
 /* タイトル部分 */
 .-title {
     display: block;
@@ -303,7 +307,7 @@ img {
 }
 
 .gallery img {
-    width: 100%;
+    width: 99%;
     height: auto;
 }
 
